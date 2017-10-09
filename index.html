@@ -2,26 +2,70 @@
 <html>
 	<head>
 		<title>SuperMegaAwesome HTML-code</title>
-		<!-- har inte gjort understrecksgrejen själv.--> 
-		<style> u.dotted{
+		<meta charset = "utf-8">
+	<style> 
+		u.dotted{
 		  border-bottom: 3px dotted #000;
-		  text-decoration: none; 
-		} </style>
+		  text-decoration: none;
+		} 
+
+		body {
+			background-color: white;
+			background-image: url("girlshavemorefun.jpg"); 
+			background-size: 100%;
+			background-repeat: no-repeat;
+		    font-size:160%;
+		    font-family:Coming Soon;     
+		}
+		a, a:active, a:visited {
+			color: #6ecf64; 
+		}
+		a:hover {
+			color: #4fa4dd; 
+		}
+	
+		h1 {
+			text-align: center; 
+			font-size: 3em;
+		}
+		ul{
+			color: #FFD3D3;
+			list-style: none;
+		}
+		/*Här är mina divs*/
+		#presentation {
+			text-align: center;
+		}
+		#bar {
+			text-align:center; 
+			background-color: #666666;
+		}
+		#space {
+			height: 600px;
+		}
+		#portrait {
+			position: absolute; 
+			right: 20px; 
+			bottom: 0px;
+			top: 920px;
+		}
+	</style>
 		<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet"> 
 	</head>
 	
-	<body style = "background-color: LightCoral;
-		       font-size:160%;
-		       font-family:Coming Soon
-		       "link="#FFD3D3" vlink="#FFD3D3" alink="#A42A2A">
-		
-		<br/>
-		<h1><b><u class="dotted"> Karin Frinell </u></b></h1>
-		
-		<div style = "text-align:center; background-color: #470D0D">
-		<ui style = "color: #FFD3D3">
-		<li><a href = "https://www.linkedin.com/in/karin-frinell/" target="_blank">LinkedIn-profil.</a></li>
-		<li><a href = "html-exercises.html"> HTML-övningar </a></li></ui>
+	<body> 
+		<div id = "space"></div>
+
+		<h1><b><u class="dotted">Hello!</u></b></h1>
+
+		<div id = "presentation">Jag heter Karin Frinell. Jag går Front-Endutvecklare på EC utbildning i Göteborg. På denna sida hittar du övningar som ingår i utbildningen och kanske andra roliga projekt.</div>
+
+		<div id = "bar">
+		<ul>
+		<li><a href = "https://www.linkedin.com/in/karin-frinell/" target="_blank">LinkedIn-profil</a></li>
+		<li><a href = "html-exercises.html"> HTML-övningar </a></li></ul>
 		</div>
+		
+		<div id = "portrait"><img src = "karin.png" width = "120px" height = "120px"/></div>
 	</body>
 </html>
