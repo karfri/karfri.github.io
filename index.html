@@ -14,7 +14,7 @@
 			background-image: url("girlshavemorefun.jpg"); 
 			background-size: 100%;
 			background-repeat: no-repeat;
-		    font-size:160%;
+		    font-size:28px;
 		    font-family:Coming Soon;     
 		}
 		a, a:active, a:visited {
@@ -36,16 +36,22 @@
 		#presentation {
 			text-align: center;
 		}
-		#bar {
+		#bar1 {
+			
 			text-align:center; 
 			background-color: #666666;
 		}
+		
 		#space {
 			height: 600px;
 		}
-		#portrait {
-			position: relative;
-			left: 85%; 
+		#portrait { 
+			font-size: 0.4em;
+    		width: 150px;
+		}
+		#button {
+			width: 35px;
+			height: 35px;
 		}
 	</style>
 		<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet"> 
@@ -53,18 +59,26 @@
 	
 	<body> 
 		<div id = "space"></div>
+		
+		
 
 		<h1><b><u class="dotted">Hello!</u></b></h1>
 
 		<div id = "presentation">Jag heter Karin Frinell. Jag går Front-Endutvecklare på EC utbildning i Göteborg. På denna sida hittar du övningar som ingår i utbildningen och kanske andra roliga projekt.</div>
 
-		<div id = "bar">
+		<div id = "bar1">
 		<ul>
-		<li><a href = "html-exercises.html"> HTML-övningar </a></li>
-		<li><a href = "https://www.linkedin.com/in/karin-frinell/" target="_blank">LinkedIn-profil</a></li>
-		</ul>
+		<li><a href = "html-exercises.html"> HTML-övningar </a></li></ul>
 		</div>
+
+		<div>	
+			<a href = "https://www.linkedin.com/in/karin-frinell/" target="_blank">
+				<img id = "button" src = "http://cdn.onlinewebfonts.com/svg/download_24845.png"/></a>
+
+			<div id = "portrait"> <img  src = "karin.png" width = "90px" height = "90px"/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>	
+		</div>
+
 		
-		<div id = "portrait"><img src = "karin.png" width = "120px" height = "120px"/></div>
+	
 	</body>
 </html>
