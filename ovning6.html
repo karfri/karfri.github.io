@@ -10,19 +10,18 @@
 	width: 400px;
 	border: 1px solid #a9a9a9;
 	border-collapse: separate;
-    	border-spacing: 1px 1px;
+    border-spacing: 1px 1px;
 	
 }
 .divTableRow {
 	display: table-row;
 }
-
+	
 .divTableCaption {
 	background-color: #ffffff;
 	text-align: center;
 	display: table-caption;
 }
-
 .divTableHead {
 	background-color: #f5da81;
 	border: 1px dashed #8a4b08;
@@ -32,20 +31,17 @@
 	padding: 3px 10px;
 	margin: 5px 15px;
 }
-
+	
+.divTableBody {
+	display: table-row-group;
+}
 .divTableCell {
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
-	padding: 3px 10px;
-	margin: 5px 15px;
-	
+	text-align: left;
+	padding: 3px 3px;
+	margin: 5px 15px;	
 }
-
-.divTableBody {
-	display: table-row-group;
-	
-}
-
 .divTableCellLand {
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
@@ -53,7 +49,7 @@
 	padding: 3px 10px;
 	margin: 5px 15px;
 }
-
+/*divTableCellMedal*/
 .divTableCellGold {
 	background-color: #ffd700;
 	border: 1px dotted #a9a9a9;
@@ -86,46 +82,49 @@
 	padding: 3px 10px;
 	margin: 5px 15px;
 }
-
-
 </style>
 </head>
 
 <body>
-Tabell gjord med div-element.
 	<div class="divTable">
 	<div class="divTableCaption">Kula, damer, OS 2016</div>
 	<div class="divTableBody">
+	
 	<div class="divTableRow">
 	<div class="divTableHead">Idrottare</div>
 	<div class="divTableHead">Resultat</div>
 	<div class="divTableHead">Placering</div>
 	<div class="divTableHead">Land</div>
 	</div>
+		
 	<div class="divTableRow">
 	<div class="divTableCell">Michelle Carter</div>
 	<div class="divTableCell">20,63m</div>
 	<div class="divTableCellGold">1</div>
 	<div class="divTableCellLand">USA</div>
 	</div>
+		
 	<div class="divTableRow">
 	<div class="divTableCell">Valerie Adams</div>
 	<div class="divTableCell">20,42m</div>
 	<div class="divTableCellSilver">2</div>
 	<div class="divTableCellLand">Nya Zeeland</div>
 	</div>
+		
 	<div class="divTableRow">
 	<div class="divTableCell">Anita Márton</div>
 	<div class="divTableCell">19,87m</div>
 	<div class="divTableCellBronze">3</div>
 	<div class="divTableCellLand">Ungern</div>
 	</div>
+		
 	<div class="divTableRow">
 	<div class="divTableCell">Gong Lijiao</div>
 	<div class="divTableCell">19,39m</div>
 	<div class="divTableCellForth">4</div>
 	<div class="divTableCellLand">Kina</div>
 	</div>
+		
 	</div>
 	</div>
 </body>
