@@ -13,16 +13,21 @@
     border-spacing: 1px 1px;
 	
 }
-.divTableRow {
-	display: table-row;
-}
-	
-.divTableCaption {
+.divCaption {
 	background-color: #ffffff;
 	text-align: center;
 	display: table-caption;
 }
-.divTableHead {
+.divBody {
+	display: table-row-group;
+}
+
+.divRow {
+	display: table-row;
+}
+	
+
+.divHead {
 	background-color: #f5da81;
 	border: 1px dashed #8a4b08;
 	font-weight: bold;
@@ -32,25 +37,23 @@
 	margin: 5px 15px;
 }
 	
-.divTableBody {
-	display: table-row-group;
-}
-.divTableCell {
+
+.divCell {
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
 	text-align: left;
 	padding: 3px 3px;
 	margin: 5px 15px;	
 }
-.divTableCellLand {
+.divCellLand {
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
 	text-align: right;
 	padding: 3px 3px;
 	margin: 5px 15px;
 }
-/*divTableCellMedal*/
-.divTableCellGold {
+/*medaljerna*/
+.divCellGold {
 	background-color: #ffd700;
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
@@ -58,7 +61,7 @@
 	padding: 3px 10px;
 	margin: 5px 15px;
 }
-.divTableCellSilver {
+.divCellSilver {
 	background-color: #c0c0c0;
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
@@ -66,7 +69,7 @@
 	padding: 3px 10px;
 	margin: 5px 15px;
 }
-.divTableCellBronze {
+.divCellBronze {
 	background-color: #b18904;
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
@@ -74,7 +77,7 @@
 	padding: 3px 10px;
 	margin: 5px 15px;
 }
-.divTableCellForth {
+.divCellForth {
 	background-color: #ecf6ce;
 	border: 1px dotted #a9a9a9;
 	display: table-cell;
@@ -88,42 +91,42 @@
 <body>
 En tabell gjord av div-element. 
 	<div class="divTable">
-	<div class="divTableCaption">Kula, damer, OS 2016</div>
-	<div class="divTableBody">
+	<div class="divCaption">Kula, damer, OS 2016</div>
+	<div class="divBody">
 	
-	<div class="divTableRow">
-	<div class="divTableHead">Idrottare</div>
-	<div class="divTableHead">Resultat</div>
-	<div class="divTableHead">Placering</div>
-	<div class="divTableHead">Land</div>
+	<div class="divRow">
+	<div class="divHead">Idrottare</div>
+	<div class="divHead">Resultat</div>
+	<div class="divHead">Placering</div>
+	<div class="divHead">Land</div>
 	</div>
 		
-	<div class="divTableRow">
-	<div class="divTableCell">Michelle Carter</div>
-	<div class="divTableCell">20,63m</div>
-	<div class="divTableCellGold">1</div>
-	<div class="divTableCellLand">USA</div>
+	<div class="divRow">
+	<div class="divCell">Michelle Carter</div>
+	<div class="divCell">20,63m</div>
+	<div class="divCellGold">1</div>
+	<div class="divCellLand">USA</div>
 	</div>
 		
-	<div class="divTableRow">
-	<div class="divTableCell">Valerie Adams</div>
-	<div class="divTableCell">20,42m</div>
-	<div class="divTableCellSilver">2</div>
-	<div class="divTableCellLand">Nya Zeeland</div>
+	<div class="divRow">
+	<div class="divCell">Valerie Adams</div>
+	<div class="divCell">20,42m</div>
+	<div class="divCellSilver">2</div>
+	<div class="divCellLand">Nya Zeeland</div>
 	</div>
 		
-	<div class="divTableRow">
-	<div class="divTableCell">Anita Márton</div>
-	<div class="divTableCell">19,87m</div>
-	<div class="divTableCellBronze">3</div>
-	<div class="divTableCellLand">Ungern</div>
+	<div class="divRow">
+	<div class="divCell">Anita Márton</div>
+	<div class="divCell">19,87m</div>
+	<div class="divCellBronze">3</div>
+	<div class="divCellLand">Ungern</div>
 	</div>
 		
-	<div class="divTableRow">
-	<div class="divTableCell">Gong Lijiao</div>
-	<div class="divTableCell">19,39m</div>
-	<div class="divTableCellForth">4</div>
-	<div class="divTableCellLand">Kina</div>
+	<div class="divRow">
+	<div class="divCell">Gong Lijiao</div>
+	<div class="divCell">19,39m</div>
+	<div class="divCellForth">4</div>
+	<div class="divCellLand">Kina</div>
 	</div>
 		
 	</div>
