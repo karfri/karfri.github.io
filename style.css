@@ -1,0 +1,66 @@
+	u.dotted{
+		  border-bottom: 3px dotted #000;
+		  text-decoration: none;
+		} 
+		html{
+			background-image: url("girlshavemorefun.jpg"); 
+			background-size: 90%;
+			background-position: center;
+			background-repeat: no-repeat; 
+			margin-top: -200px;
+		}
+
+		body {
+			background-color: white;
+		    font-size:28px;
+		    font-family:Coming Soon; 
+		       
+		}
+
+		a {
+			color: #6ecf64;
+			text-decoration: none;
+			margin-right: 10px; 
+		}
+		a:hover {
+			color: #4fa4dd; 
+		}
+	
+		h1 {
+			text-align: center; 
+			font-size: 3em;
+			line-height: 0.3em;
+		}
+		
+		li {
+			list-style: none;
+			display: inline-block;
+		}
+		main{
+			margin-top: 60%;
+		}
+
+		.link{
+			  display: inline-block;
+			  border-radius: 4px;
+			  background-color: #666;
+			  color: #FFFFFF;
+			  text-align: center;
+			  padding: 5px;
+			  margin-left: 430px;
+			  box-shadow: 2px 2px 3px -4px rgba(0,0,0,0.75);
+			  
+			}
+		
+		#presentation {
+			text-align: center;
+				
+		}
+		#bar {
+			display: inline-block;
+		}
+		
+		#linkedIn {
+			width: 35px;
+			height: 35px;
+		}

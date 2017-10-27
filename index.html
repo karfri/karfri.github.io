@@ -3,72 +3,30 @@
 	<head>
 		<title>SuperMegaAwesome HTML-code</title>
 		<meta charset = "utf-8">
-	<style> 
-		u.dotted{
-		  border-bottom: 3px dotted #000;
-		  text-decoration: none;
-		} 
-
-		body {
-			background-color: white;
-			background-image: url("girlshavemorefun.jpg"); 
-			background-size: 100%;
-			background-repeat: no-repeat;
-		    font-size:28px;
-		    font-family:Coming Soon;     
-		}
-		a, a:active, a:visited {
-			color: #6ecf64; 
-		}
-		a:hover {
-			color: #4fa4dd; 
-		}
-	
-		h1 {
-			text-align: center; 
-			font-size: 3em;
-		}
-		ul{
-			color: #FFD3D3;
-			list-style: none;
-		}
-		/*Här är mina divs*/
-		#presentation {
-			text-align: center;
-			margin-top: 53%;
-		}
-		#bar1 {
-			
-			text-align:center; 
-			background-color: #666666;
-		}
-
-		#button {
-			width: 35px;
-			height: 35px;
-		}
-	</style>
 		<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	
 	<body> 	
-
-		
-
-		<div id = "presentation"><h1><b><u class="dotted">Hello!</u></b></h1>
-		Jag heter Karin Frinell. Jag går Front-Endutvecklare på EC utbildning i Göteborg. På denna sida hittar du övningar som ingår i utbildningen och kanske andra roliga projekt.</div>
-
-		<div id = "bar1">
-		<ul>
-		<li><a href = "html-exercises.html"> HTML-övningar </a></li></ul>
-		</div>
-
-		<div>	
-			<a href = "https://www.linkedin.com/in/karin-frinell/" target="_blank">
-				<img id = "button" src = "http://cdn.onlinewebfonts.com/svg/download_24845.png"/></a>
-		</div>
-
-		
-	
+		<main>
+			<section id = "presentation">
+				<h1><b><u class="dotted">Hello!</u></b></h1>
+				Jag heter Karin Frinell. Jag går Frontend-utvecklare på EC utbildning i Göteborg. På denna sida hittar du övningar som ingår i utbildningen och kanske andra roliga projekt.
+			</section>
+			<section id = "bar"> 
+				<ul>
+					<li>
+						<a href = "https://www.linkedin.com/in/karin-frinell/" target="_blank">
+							<img id = "linkedIn" src = "http://cdn.onlinewebfonts.com/svg/download_24845.png"/>
+						</a>
+					</li>
+				
+					<li class = "link">
+						<a href = "html-exercises.html"><span> HTML-övningar </span></a>
+					</li>
+			
+				</ul>
+			</section>
+		</main>
 	</body>
 </html>
