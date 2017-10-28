@@ -1,0 +1,79 @@
+body {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+	a.buttons{
+		text-decoration: none;
+		color: salmon;
+		border: 0.5px solid lightgrey;
+		border-radius: 10px;
+		box-shadow: 0px 2px 2px 0px black;
+		padding: 5px;
+	}
+	a.buttons:hover  { color: black; 
+			  box-shadow: 0px 4px 8px 0px black;
+			  border: 2px solid lightgrey;
+	}
+	h4 {
+		color: forestgreen;
+		font-size: 1.5em;
+	}
+	li {
+		list-style: none;
+		display: inline;
+		padding: 0 2px 0 2px;
+	}
+	nav {margin-left: 200px;}
+	header {
+		color: salmon;
+		font-size: 5em;
+		font-style: italic;
+		border-radius: 5px;
+		background-color: beige;
+		border: 1px solid lightgrey;
+		width:660px;
+		padding-left: 30px;
+	}
+	
+	.checkoutform{
+		width:250px;
+		margin-left: 20px;
+		border:1.5px solid lightgrey;
+		border-radius: 10px;
+		box-shadow: 0px 2px 4px 0px black;
+		padding: 15px;
+		margin-top: 60px;
+		font-family: : "arial";
+		font-size: 0.6em;
+		float: left;
+	}
+	.labels{
+		display: inline-block;
+		width:80px;
+		background-color: lightgrey;
+		padding: 4px;
+		font-weight: 2px;
+		border-radius: 4px;
+		text-align: right;
+		font-size: 1.2em;
+	}
+
+	.paymentform {
+		width:300px;
+		margin-left: 20px;
+		border:1.5px solid lightgrey;
+		border-radius: 10px;
+		box-shadow: 0px 2px 4px 0px black;
+		padding: 15px;
+		margin-top: 60px;
+		font-family: : "arial";
+		font-size: 0.6em;
+		float: left;
+	}
+	
+	.button {
+		box-shadow: 0px 1px 2px 0px lightgrey;
+		margin-top: 10px;
+		border: 1px solid lightgrey;
+		cursor: pointer;
+	}	  
+	.smaller {
+		width: 15%;
+	}

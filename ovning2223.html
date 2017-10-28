@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="2223style.css">
+</head>
+
+<body>
+	<header>WeSellSomething</header>
+	<nav>
+		<ol>
+			<li><a class = "buttons" href="#">Women</a></li>
+			<li><a class = "buttons" href="#">Men</a></li>
+			<li><a class = "buttons" href="#">Kids</a></li>
+			<li><a class = "buttons" href="#">Sale</a></li>
+
+		</ol>
+	</nav>
+	
+	<main>
+
+		<section class = "checkoutform">
+			<h4>Enter your personal details:</h4>
+			<form>
+				<label for="firstname"><span class="labels">Firstname:</span></label>
+				<input type="text" name="name" id="firstname">
+				<br/><br/>
+				<label for="lastname"><span class="labels">Lastname:</span></label>
+				<input type="text" name="lastname" id="lastname">
+				<br/><br/>
+				<label for="email"><span class="labels">Email:</span></label>
+				<input type="text" name="email" id="email">
+				<br/><br/>
+				<label for="address"><span class="labels">Street Address:</span></label>
+				<input type="text" name="address" id="address">
+				<br/><br/>
+				<label for ="zipcode"><span class="labels">Zip code:</span></label>
+				<input type="text" name="zipcode">
+				<br/><br/>
+				<label for="city"><span class="labels">City:</span></label>
+				<input type="text" name="city">
+			</form>
+		</section>
+		<section class = "paymentform">
+			<h4>Enter your payment details:</h4>
+			<form>
+				<section><select>
+						<option>American Express</option>
+						<option>Master Card</option>
+						<option>Visa</option>
+					</select>
+				</section>
+				
+				<section>Card number:		
+					<br/><input type="text" placeholder="Valid Card Number" name="cardnumber" maxlength="16"> 
+				</section>
+
+				<section>Month:
+					<select>
+						 <option value="01" >01</option>
+			        
+			            <option value="02" >02</option>
+			        
+			            <option value="03" >03</option>
+			        
+			            <option value="04" >04</option>
+			        
+			            <option value="05" >05</option>
+			        
+			            <option value="06" >06</option>
+			        
+			            <option value="07" >07</option>
+			        
+			            <option value="08" >08</option>
+			        
+			            <option value="09" >09</option>
+			        
+			            <option value="10" >10</option>
+			        
+			            <option value="11" >11</option>
+			        
+			            <option value="12" >12</option>
+					</select>
+
+					Year:
+					<select>
+						 <option value="2017" >2017</option>
+			        
+			            <option value="2018" >2018</option>
+			        
+			            <option value="2019" >2019</option>
+			        
+			            <option value="2020" >2020</option>
+			        
+			            <option value="2021" >2021</option>
+			        
+			            <option value="2022" >2022</option>
+			        
+			            <option value="2023" >2023</option>
+			        
+			            <option value="2024" >2024</option>
+			        
+			            <option value="2025" >2025</option>
+			        
+			            <option value="2026" >2026</option>
+					</select>
+				</section>
+
+				<section>CVC/CVV
+					<br/><input class = "smaller" type="text" maxlength="4" placeholder="***" name="cvc">
+				</section>
+
+				<section>Name on card:		
+					<br/><input type="text" placeholder="Fullname"> 
+				</section>
+				<section>
+				<input type="checkbox" name="termsandconditions" id="terms" checked="unchecked">
+				<label for="terms">I agree to the <a href="#">Terms and Conditions</a></label></section>
+				
+
+				
+				<input class = "button" type="submit" name="purchase" value="Purchase">
+				
+		</form>
+	</section>
+</main>
+
+
+</body>
+</html>
