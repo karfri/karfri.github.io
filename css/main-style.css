@@ -1,0 +1,66 @@
+body {
+	font-family: "Coming Soon";
+	background-color: #d4d2d5;
+	<!--#495d63 #98b6b1-->
+}
+
+
+nav{
+	background-color: white;
+	font-family: 'Carter One', cursive;
+	font-size: 1.5em;
+	padding: 0.5em;
+	border-bottom: 2px solid #cfcbcb;
+	box-shadow: 5px 4px #cfcbcb;
+	
+}
+
+nav > a {
+	text-decoration: none;
+	color: #fac8cd;
+
+}
+nav>a:hover {
+	color: #6e6a6f;
+}
+
+nav > span {
+	font-size: 1em;
+	color: #fac8cd;
+	padding: 0px 5px;
+
+}
+
+main {
+	display: flex;
+	justify-content: flex-start;
+	height: 35em;
+	color: black;
+	
+
+}
+
+main > p {
+	margin-top: 10em;
+	width: 50%;
+	flex: 1 1 auto;
+}
+main > img {
+	margin: 20px 20px 0px 20px;
+	border: 5px solid white;
+	width: 40%;
+	flex: 2 2 auto;
+}
+
+footer {
+	
+}
+
+footer>a>img {
+	width: 40px;
+	
+}
+
+footer>a>img:hover{
+	filter: invert(100%);
+}
