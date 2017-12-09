@@ -36,9 +36,8 @@ main {
 	justify-content: flex-start;
 	height: 35em;
 	color: black;
-	
-
 }
+
 
 main > p {
 	margin-top: 10em;
@@ -52,8 +51,41 @@ main > img {
 	flex: 2 2 auto;
 }
 
+@media only screen and  (max-device-width : 480px) {
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 30em;
+	color: black;
+}
+
+main > p {
+	margin-top: 2em;
+	width: 100%;
+	flex: 1 1 auto;
+}
+main > img {
+	margin: 0px 0px 2px 0px;
+	border: 5px solid white;
+	width: 95%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	flex: 1 1 auto;
+}
 footer {
-	
+	position: absolute;
+	bottom: 0px;
+}
+
+
+}
+
+
+footer {
+	width: 100%;
 }
 
 footer>a>img {
@@ -64,3 +96,22 @@ footer>a>img {
 footer>a>img:hover{
 	filter: invert(100%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
