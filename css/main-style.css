@@ -1,23 +1,23 @@
 body {
 	font-family: "Coming Soon";
-	background-color: #d4d2d5;
-	<!--#495d63 #98b6b1-->
+	background-color: white;
+	<!--#495d63 #98b6b1 fac8cd-->
 }
 
 
 nav{
-	background-color: white;
+	background-color: #d4d2d5;
 	font-family: 'Carter One', cursive;
 	font-size: 1.5em;
 	padding: 0.5em;
 	border-bottom: 2px solid #cfcbcb;
-	box-shadow: 5px 4px #cfcbcb;
+	box-shadow: 3px 2px #cfcbcb;
 	
 }
 
 nav > a {
 	text-decoration: none;
-	color: #fac8cd;
+	color: salmon;
 
 }
 nav>a:hover {
@@ -75,15 +75,12 @@ main > img {
 	margin-right: auto;
 	flex: 1 1 auto;
 }
-footer {
-	
-}
-
 
 }
 
 
 footer {
+	margin-top: 2em;
 	width: 100%;
 }
 
@@ -93,7 +90,7 @@ footer>a>img {
 }
 
 footer>a>img:hover{
-	filter: invert(100%);
+	filter: invert(60%);
 }
 
 
