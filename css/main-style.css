@@ -1,17 +1,21 @@
 body {
+	margin: 0;
 	font-family: "Coming Soon";
+	background-image: url("/Users/karinfrinell/Documents/html-demo/pictures/örebro.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-color: white;
-	<!--#495d63 #98b6b1 fac8cd-->
+	<!--#495d63 #98b6b1 fac8cd #d4d2d5-->
 }
 
 
 nav{
-	background-color: #d4d2d5;
+	background-color: white;
 	font-family: 'Carter One', cursive;
-	font-size: 1.5em;
+	font-size: 125%;
 	padding: 0.5em;
-	border-bottom: 2px solid #cfcbcb;
-	box-shadow: 3px 2px #cfcbcb;
+	padding-left: 4.8em;
+	<!-- box-shadow: 3px 2px #cfcbcb;-->
 	
 }
 
@@ -31,66 +35,94 @@ nav > span {
 
 }
 
+#nav2 {
+	width: 3em;
+	margin-left: 1em;
+}
+
+#nav2>a>img {
+	width: 50px;
+	
+}
+
+#nav2>a>img:hover{
+	filter: invert(60%);
+}
+
 main {
 	display: flex;
 	justify-content: flex-start;
 	height: 35em;
 	color: black;
 }
-
-
-main > p {
-	margin-top: 10em;
-	width: 50%;
-	flex: 1 1 auto;
-}
-main > img {
-	margin: 20px 20px 0px 20px;
-	border: 5px solid white;
-	width: 40%;
-	flex: 2 2 auto;
+main>p{
+	width: 30%;
+	position: absolute;
+	top: 550px;
+	left: 80px;
+	background-color: salmon;
+	padding: 10px;
 }
 
-@media only screen and  (max-device-width : 480px) {
+	main > img {
+		display: none;
+	}
 
-main {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	height: 30em;
-	color: black;
-}
+	footer{
+		display: none;
+	}
 
-main > p {
-	margin-top: 2em;
-	width: 100%;
-	flex: 1 1 auto;
-}
-main > img {
-	margin: 0px 0px 2px 0px;
-	border: 5px solid white;
-	width: 95%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	flex: 1 1 auto;
-}
+@media only screen and (max-device-width : 480px) {
+	body {
+		background-image: none;
+	}
 
-}
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		height: 30em;
+		color: black;
+	}
 
+	main > p {
+		position: static;
+		margin-top: 1em;
+		width: 100%;
+		flex: 1 1 auto;
+		background-color: white;
+	}
 
-footer {
-	margin-top: 2em;
-	width: 100%;
-}
+	main > img {
+		display: block;
+		margin: 0px 0px 2px 0px;
+		border: 5px solid white;
+		width: 100%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		flex: 1 1 auto;
+	}
 
-footer>a>img {
-	width: 40px;
-	
-}
+	#nav2{
+		display: none;
+	}
+	footer {
+		display: block;
+		margin-top: 5em;
+		width: 100%;
+		height: 100px;
+	}
 
-footer>a>img:hover{
-	filter: invert(60%);
+	footer>a>img {
+		width: 40px;
+		
+	}
+
+	footer>a>img:hover{
+		filter: invert(100%);
+	}
+
 }
 
 

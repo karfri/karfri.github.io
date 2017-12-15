@@ -1,0 +1,114 @@
+body {
+	font-family: "Coming Soon";
+	background-color: white;
+	<!--#495d63 #98b6b1 fac8cd-->
+}
+
+
+nav{
+	background-color: #d4d2d5;
+	font-family: 'Carter One', cursive;
+	font-size: 1.5em;
+	padding: 0.5em;
+	border-bottom: 2px solid #cfcbcb;
+	box-shadow:-1px 0px 4px #857977;
+	<!-- box-shadow: 3px 2px #cfcbcb;-->
+	
+}
+
+nav > a {
+	text-decoration: none;
+	color: salmon;
+
+}
+nav>a:hover {
+	color: #6e6a6f;
+}
+
+nav > span {
+	font-size: 1em;
+	color: salmon;
+	padding: 0px 5px;
+
+}
+
+main {
+	display: flex;
+	justify-content: flex-start;
+	height: 35em;
+	color: black;
+}
+
+
+main > p {
+	margin-top: 10em;
+	width: 50%;
+	flex: 1 1 auto;
+}
+main > img {
+	margin: 20px 20px 0px 20px;
+	border: 5px solid white;
+	width: 40%;
+	flex: 2 2 auto;
+}
+
+@media only screen and  (max-device-width : 480px) {
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 30em;
+	color: black;
+}
+
+main > p {
+	margin-top: 2em;
+	width: 100%;
+	flex: 1 1 auto;
+}
+main > img {
+	margin: 0px 0px 2px 0px;
+	border: 5px solid white;
+	width: 95%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	flex: 1 1 auto;
+}
+
+}
+
+
+footer {
+	margin-top: 2em;
+	width: 100%;
+}
+
+footer>a>img {
+	width: 40px;
+	
+}
+
+footer>a>img:hover{
+	filter: invert(60%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
