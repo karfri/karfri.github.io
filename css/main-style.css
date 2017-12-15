@@ -4,6 +4,7 @@ body {
 	background-image: url("../pictures/örebro.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 70%;
 	background-color: white;
 	<!--#495d63 #98b6b1 fac8cd #d4d2d5-->
 }
