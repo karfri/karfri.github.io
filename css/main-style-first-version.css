@@ -5,13 +5,13 @@ body {
 }
 
 
+
 nav{
-	background-color: #d4d2d5;
+	background-color: white;
 	font-family: 'Carter One', cursive;
-	font-size: 1.5em;
+	font-size: 125%;
 	padding: 0.5em;
-	border-bottom: 2px solid #cfcbcb;
-	box-shadow:-1px 0px 4px #857977;
+	padding-left: 4.8em;
 	<!-- box-shadow: 3px 2px #cfcbcb;-->
 	
 }
