@@ -1,8 +1,14 @@
+body {
+  margin:0;
+}
+
 nav{
   background-color: #f7f7f7;
   padding: 10px;
+  padding-left: 30px;
   font-family: 'Montserrat', sans-serif;
-
+  margin: 0px;
+  width: 100%
 }
 
 a {
@@ -27,8 +33,11 @@ main {
   font-family: 'IM Fell Double Pica', serif;
 }
 
-main img {
+div.img {
   width: 40%;
+}
+img {
+  width: 100%;
 }
 
 main div {
