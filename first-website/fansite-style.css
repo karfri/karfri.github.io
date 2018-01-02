@@ -1,0 +1,56 @@
+nav{
+  background-color: #f7f7f7;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: darkgrey;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+main {
+  display: flex;
+  margin: 40px;
+  flex-wrap: wrap;
+  font-family: 'IM Fell Double Pica', serif;
+}
+
+main img {
+  width: 40%;
+}
+
+main div {
+  width: 50%;
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 5px;
+}
+div#bottom{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;;
+
+}
+
+#video {
+border: 10px solid lightgrey;
+}
+
+div#twitter{
+  width: auto;
+  background-color: lightgrey;
+  margin: 5px;
+}
