@@ -8,7 +8,8 @@ nav{
   padding-left: 30px;
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
-  width: 100%
+  width: 100%;
+  text-align: center;
 }
 
 a {
@@ -46,6 +47,14 @@ main div {
   margin: 5px;
   padding: 5px;
 }
+.quote-link {
+  font-style: italic;
+}
+
+.quote-link a {
+  text-decoration: underline;
+}
+
 div#bottom{
   width: 90%;
   display: flex;
